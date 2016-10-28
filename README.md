@@ -5,7 +5,7 @@
 带补充文本(副标题，值)的 TextView 
 
  
-![subtextview](screenshot.png)
+![subtextview](screenshot.png)  ![subtextview2](screenshot2.png)
 
 ## Gradle
 
@@ -13,7 +13,7 @@
 repositories { 
     maven { url "https://jitpack.io" }
 }
-```  
+```   
     
 ``` groovy
 dependencies {
