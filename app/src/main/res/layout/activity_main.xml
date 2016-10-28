@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:showDividers="beginning|middle|end">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Grid"
+            android:textColor="#333333"/>
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="1px"
+            app:columnCount="2">
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Grid"
+                android:drawableLeft="@mipmap/list_1"
+
+                android:text="我的账户"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Grid"
+                android:drawableLeft="@mipmap/list_2"
+                android:text="我的账户"
+                app:stvSubText="快快把钱存进来，哈哈哈哈哈"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Grid"
+                android:drawableLeft="@mipmap/list_3"
+                android:text="我的账户"
+                app:stvSubText="快快把钱存进来"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Grid"
+                android:drawableLeft="@mipmap/list_4"
+                android:text="我的账户"
+                app:stvSubText="快快把钱存进来\n哈哈哈"/>
+        </android.support.v7.widget.GridLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Subtitle"
+            android:textColor="#333333"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_il15"
+            android:orientation="vertical"
+            android:showDividers="middle">
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Subtitle"
+                android:drawableLeft="@mipmap/list_1"
+                android:text="我的账户"/>
+            <com.github.czy1121.view.SubTextView
+                android:id="@+id/stv1"
+                style="@style/CellTextView.Subtitle"
+                android:drawableLeft="@mipmap/list_2"
+                android:drawableRight="@mipmap/next"
+                android:text="我的账户"
+                app:stvSubText="快快把钱存进来，哈哈哈"/>
+            <com.github.czy1121.view.SubTextView
+                android:id="@+id/stv2"
+                style="@style/CellTextView.Subtitle"
+                android:drawableLeft="@mipmap/list_3"
+                android:drawableRight="@mipmap/next"
+                android:text="我的账户"
+                app:stvSubText="快快把钱存进来\n哈哈哈"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Value"
+            android:textColor="#333333"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_il15"
+            android:orientation="vertical"
+            android:showDividers="middle">
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Value"
+                android:drawableLeft="@mipmap/list_1"
+                android:text="我的账户"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Value"
+                android:drawableLeft="@mipmap/list_2"
+                android:text="我的账户"
+                app:stvSubText="哈哈哈"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="No Icon"
+            android:textColor="#333333"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_il15"
+            android:orientation="vertical"
+            android:showDividers="middle">
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Subtitle"
+                android:drawableRight="@mipmap/next"
+                android:text="我的账户"
+                app:stvSubText="来来来，把钱存进来"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Subtitle"
+                android:drawableRight="@mipmap/next"
+                android:text="我的账户"
+                app:stvSubText="快快把钱存进来"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Value"
+                android:text="我的账户"/>
+            <com.github.czy1121.view.SubTextView
+                style="@style/CellTextView.Value"
+                android:text="我的账户"
+                app:stvSubText="哈哈哈"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

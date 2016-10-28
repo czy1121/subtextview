@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="CellTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@drawable/bg_grid</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="stvSubTextGap">0dp</item>
+        <item name="stvSubTextColor">#CCCCCC</item>
+        <item name="stvSubTextMode">value</item>
+    </style>
+
+    <style name="CellTextView.Subtitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="stvSubTextMode">subtitle</item>
+    </style>
+
+    <style name="CellTextView.Value">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:drawableRight">@mipmap/next</item>
+        <item name="stvSubTextMode">value</item>
+    </style>
+
+    <style name="CellTextView.Grid">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_grid</item>
+        <item name="android:drawableRight">@drawable/divider_vcell</item>
+        <item name="stvSubTextMode">subtitle</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+    </style>
+</resources>
