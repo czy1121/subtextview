@@ -26,22 +26,22 @@
             android:layout_height="wrap_content"
             android:paddingLeft="1px"
             app:columnCount="2">
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Grid"
                 android:drawableLeft="@mipmap/list_1"
 
                 android:text="我的账户"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Grid"
                 android:drawableLeft="@mipmap/list_2"
                 android:text="我的账户"
                 app:stvSubText="快快把钱存进来，哈哈哈哈哈"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Grid"
                 android:drawableLeft="@mipmap/list_3"
                 android:text="我的账户"
                 app:stvSubText="快快把钱存进来"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Grid"
                 android:drawableLeft="@mipmap/list_4"
                 android:text="我的账户"
@@ -63,18 +63,18 @@
             android:divider="@drawable/divider_il15"
             android:orientation="vertical"
             android:showDividers="middle">
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Subtitle"
                 android:drawableLeft="@mipmap/list_1"
                 android:text="我的账户"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 android:id="@+id/stv1"
                 style="@style/CellTextView.Subtitle"
                 android:drawableLeft="@mipmap/list_2"
                 android:drawableRight="@mipmap/next"
                 android:text="我的账户"
                 app:stvSubText="快快把钱存进来，哈哈哈"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 android:id="@+id/stv2"
                 style="@style/CellTextView.Subtitle"
                 android:drawableLeft="@mipmap/list_3"
@@ -97,11 +97,11 @@
             android:divider="@drawable/divider_il15"
             android:orientation="vertical"
             android:showDividers="middle">
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Value"
                 android:drawableLeft="@mipmap/list_1"
                 android:text="我的账户"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Value"
                 android:drawableLeft="@mipmap/list_2"
                 android:text="我的账户"
@@ -122,20 +122,20 @@
             android:divider="@drawable/divider_il15"
             android:orientation="vertical"
             android:showDividers="middle">
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Subtitle"
                 android:drawableRight="@mipmap/next"
                 android:text="我的账户"
                 app:stvSubText="来来来，把钱存进来"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Subtitle"
                 android:drawableRight="@mipmap/next"
                 android:text="我的账户"
                 app:stvSubText="快快把钱存进来"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Value"
                 android:text="我的账户"/>
-            <com.github.czy1121.view.SubTextView
+            <ezy.ui.veiw.SubTextView
                 style="@style/CellTextView.Value"
                 android:text="我的账户"
                 app:stvSubText="哈哈哈"/>

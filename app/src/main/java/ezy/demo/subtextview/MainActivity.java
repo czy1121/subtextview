@@ -1,10 +1,12 @@
-package com.github.czy1121.subtextview.demo;
+package ezy.demo.subtextview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.github.czy1121.view.SubTextView;
+import com.github.czy1121.subtextview.demo.R;
+
+import ezy.ui.veiw.SubTextView;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {

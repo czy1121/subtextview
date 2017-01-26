@@ -1,4 +1,4 @@
-package com.github.czy1121.view;
+package ezy.ui.veiw;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,7 +14,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import com.github.czy1121.subtextview.R;
+import ezy.library.subtextview.R;
 
 
 public class SubTextView extends TextView {

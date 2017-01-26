@@ -1,6 +1,4 @@
-# SubTextView
- 
-[![](https://jitpack.io/v/czy1121/subtextview.svg)](https://jitpack.io/#czy1121/subtextview)
+# SubTextView [![](https://jitpack.io/v/czy1121/subtextview.svg)](https://jitpack.io/#czy1121/subtextview)
  
 带补充文本(副标题，值)的 TextView 
 
@@ -12,28 +10,25 @@
 ``` groovy
 repositories { 
     maven { url "https://jitpack.io" }
-}
-```   
-    
-``` groovy
+} 
 dependencies {
-    compile 'com.github.czy1121:subtextview:1.0.0'
+    compile 'com.github.czy1121:subtextview:1.1.0'
 }
 ```
-    
+ 
 ## Usage
     
 **XML**
 
 ``` xml
-<com.github.czy1121.view.SubTextView
+<ezy.ui.view.SubTextView
     style="@style/CellTextView.Subtitle"
     android:drawableLeft="@mipmap/list_3"
     android:drawableRight="@mipmap/next"
     android:text="我的账户"
     app:stvSubText="快把钱存进来\n哈哈哈"/>
 
-<com.github.czy1121.view.SubTextView
+<ezy.ui.view.SubTextView
     style="@style/CellTextView.Value"
     android:drawableLeft="@mipmap/list_2"
     android:text="我的账户"
